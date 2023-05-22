@@ -47,7 +47,8 @@ namespace PRUFF
             }
             foreach (int i in Proof)
             {
-                File.AppendAllText(path2, Convert.ToString(i) + " ");
+                Console.Write(i + " ");
+                //File.AppendAllText(path2, Convert.ToString(i) + " ");
             }
         }
     }
