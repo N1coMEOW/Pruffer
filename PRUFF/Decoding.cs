@@ -9,8 +9,8 @@ namespace PRUFF
 {
     internal class Decoding
     {
-        public string path1 = "Ribs.txt";
-        public string path2 = "Code.txt";
+        public string path1 = "decod.txt";
+        public string path2 = "codepruff.txt";
         public void Action(int AmCode)
         {
             List<int> Code = new List<int>();
